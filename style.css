@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+        font-family: Poppins, Helvetica, sans-serif;
+}
+
+html,body {
+    font-size: 13px !important;
+    font-weight: 400;
+    font-family: Poppins, Helvetica, "sans-serif";
+}
+
+.left-bar {
+    width: 40%;
+    /* background-color: #999; */
+    /* height: 100vh; */
+    
+    background-image: url(images/aksam.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+.right-bar {
+    width: 60%;
+    height: 100%;
+    /* background: #555; */
+    height: 100vh;
+    background-image: url(images/bg-3.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main {
+    display: flex;
+}
+
+.logo {
+    background-color: rgba(0, 55, 123, 0.8);
+}
+
+
+.servis-listesi {
+
+}
+
+.links {
+    margin-top: 200px;
+}
+
+.links a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.text-gray {
+    color: rgba(255,255,255,.4);
+    font-size: 15px;
+}
+
+
+
+.inputs {
+    max-width: 450px;
+}
+
+.inputs input{
+    font-size: 14px;
+    width: 100%;
+    padding: 0 20px;
+    border: none;
+    background-color: rgba(247, 247, 249, 1);
+    height: 50px;
+    border-radius: 9px;
+    transition: background-color 0.3s ease;
+}
+
+.inputs input:focus {
+    outline: none;
+}
+
+.remember {
+    font-size: 14px;
+    width: 450px;
+    margin:auto;
+    margin-top: 20px;
+}
+
+.remember button {
+     font-size: 14px;
+}
+
+.e-devlet {
+    
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(images/edevlet.png);
+}
+
+.e-devlet-red {
+        background-color: #da241c
+}
+
+@media (max-width:768px ) {
+
+    .left-bar {
+        width: 360px;
+    }
+
+        .left-bar ul {
+            display: flex;
+            flex-direction: column;
+        }
+
+
+        .right-bar {
+        width: 360px;
+    }
+        .right-bar input {
+        max-width: 250px;
+        }
+
+            .buttons {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            }
+
+
+        .right-bar button,
+        .right-bar a {
+            margin: 0 !important;
+
+            margin-top: 20px !important;
+            width: 450px !important;
+
+        }
+
+}
+
+
+/* dersler */
+
+
+
+.left-side {
+    width: 20%;
+    background: #fff;
+    height: 100%;
+    color: #222;
+}
+ 
+.left-side a{
+text-decoration: none;
+    color: #3F4254;
+    font-size: 1rem;
+        font-weight: 400;
+        cursor: pointer;
+        min-height: 44px;
+
+}
+
+.active {
+    color: #3699FF;
+    background-color: #F3F6F9;
+    border-radius: 5px;
+}
+
+.active a {
+        color: #3699FF;
+        
+}
+
+i.active {
+    display: inline-block;
+    color: #3699FF;
+}
+
+.left-side li:hover {
+    background: rgba(0,0,0,.2);
+}
+
+.left-side a:hover {
+color: #007bff;
+
+}
+
+.left-side i {
+    color: #666;
+    font-size: 18px;
+}
+
+
+.right-side {
+    width: 80%;
+}
+
+.right-side .navbar {
+    height: 57px;
+}
+
+.bg-btn {
+    background-color: #282f48;
+}
+
+.btn-ogrenci:hover  {
+ background-color: #282f48;
+}
+
+.ders {
+    color: #3699FF;
+    height: 45px;
+        background-color: #E1F0FF;
+}
+
+.icerik span {
+    display: inline;
+}
+
+small {
+        color: #B5B5C3 !important;
+}
+
+@media (max-width:891px) {
+
+    .right-side .navbar {
+        height: 75px;
+    }
+}
